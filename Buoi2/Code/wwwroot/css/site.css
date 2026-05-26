@@ -1,0 +1,149 @@
+/* Base */
+html {
+  font-size: 14px;
+  position: relative;
+  min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+.form-floating > .form-control-plaintext::placeholder,
+.form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder,
+.form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+
+/* App layout (Bài 1, Bài 2 & Bài 3) */
+body {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: #e8e8e8;
+  min-height: 100vh;
+  margin-bottom: 0;
+}
+
+.app-header {
+  background: #0f3460;
+  border-bottom: 3px solid #e94560;
+  padding: 0;
+}
+
+.app-header .navbar {
+  min-height: 64px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.app-header .navbar-brand {
+  color: #e94560;
+  font-weight: 700;
+  font-size: 2.25rem;
+  margin-right: 2rem;
+  padding: 0.5rem 0;
+  line-height: 1.2;
+}
+
+.app-header .navbar-nav {
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.app-header .nav-link {
+  color: #a8dadc !important;
+  padding: 0.5rem 1rem !important;
+  line-height: 1.2;
+  font-size: 22px
+}
+
+.app-header .nav-link:hover {
+  color: #e94560 !important;
+}
+
+.app-header .navbar-collapse {
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.app-header .navbar-toggler {
+  border-color: #a8dadc;
+}
+
+.app-header .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.app-main {
+  padding: 2rem 0 3rem;
+}
+
+.app-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(233, 69, 96, 0.4);
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.app-card .text-muted {
+  color: #a8dadc !important;
+}
+
+.app-card strong {
+  color: #e94560;
+}
+
+.app-footer {
+  background: #0f3460;
+  color: #a8dadc;
+  padding: 1rem 0;
+}
+
+/* Chuyển giữa các bài */
+.lesson-switch {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1050;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #e94560;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 4px 16px rgba(233, 69, 96, 0.45);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.lesson-switch:hover {
+  background: #ff6b6b;
+  color: #fff;
+  transform: translateY(-50%) scale(1.08);
+}
+
+.lesson-switch--right {
+  right: 1.25rem;
+}
+
+.lesson-switch--left {
+  left: 1.25rem;
+}
