@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Login</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/StudentManagement.styles.css" asp-append-version="true" />
+</head>
+<body class="d-flex flex-column">
+    <header class="app-header">
+        <nav class="navbar navbar-expand-sm container">
+            <a class="navbar-brand" asp-controller="Account" asp-action="Login">Bài 4: Form Submit</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#appNavbar"
+                    aria-controls="appNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="appNavbar">
+                <strong>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Account" asp-action="Login">Đăng nhập</a>
+                        </li>
+                    </ul>
+                </strong>
+            </div>
+        </nav>
+    </header>
+
+    <main class="app-main container flex-grow-1">
+        <div class="app-card">
+            @RenderBody()
+        </div>
+    </main>
+
+    <a asp-controller="Student" asp-action="Info"
+       class="lesson-switch lesson-switch--left"
+       title="Về Bài 3"
+       aria-label="Về Bài 3">←</a>
+
+    <a asp-controller="Book" asp-action="Index"
+       class="lesson-switch lesson-switch--right"
+       title="Chuyển sang Bài 5"
+       aria-label="Chuyển sang Bài 5">→</a>
+
+    <footer class="app-footer text-center">
+        <div class="container">&copy; 2026 - Bài 4: Form Submit</div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
