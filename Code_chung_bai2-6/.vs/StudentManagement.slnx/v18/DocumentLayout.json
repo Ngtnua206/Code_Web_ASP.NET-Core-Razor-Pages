@@ -1,17 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Tuan Tu\\Code\\WebAPI\\Code_Web_ASP.NET-Core-Razor-Pages\\Code_chung_bai2-6\\",
+  "WorkspaceRootPath": "D:\\Code\\Code\\WebAPI\\Code_Web_ASP.NET-Core-Razor-Pages\\Code_chung_bai2-6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84C517A6-DEEF-89D1-F783-D8FD841E2565}|StudentManagement.csproj|c:\\users\\tuan tu\\code\\webapi\\code_web_asp.net-core-razor-pages\\code_chung_bai2-6\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{84C517A6-DEEF-89D1-F783-D8FD841E2565}|StudentManagement.csproj|d:\\code\\code\\webapi\\code_web_asp.net-core-razor-pages\\code_chung_bai2-6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84C517A6-DEEF-89D1-F783-D8FD841E2565}|StudentManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Tuan Tu\\Downloads\\com.garena.game.kgvn_1\\files\\SGameLog\\Log.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84C517A6-DEEF-89D1-F783-D8FD841E2565}|StudentManagement.csproj|d:\\code\\code\\webapi\\code_web_asp.net-core-razor-pages\\code_chung_bai2-6\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{84C517A6-DEEF-89D1-F783-D8FD841E2565}|StudentManagement.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84C517A6-DEEF-89D1-F783-D8FD841E2565}|StudentManagement.csproj|c:\\users\\tuan tu\\code\\webapi\\code_web_asp.net-core-razor-pages\\code_chung_bai2-6\\views\\shared\\_productlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{84C517A6-DEEF-89D1-F783-D8FD841E2565}|StudentManagement.csproj|d:\\code\\code\\webapi\\code_web_asp.net-core-razor-pages\\code_chung_bai2-6\\views\\shared\\_productlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{84C517A6-DEEF-89D1-F783-D8FD841E2565}|StudentManagement.csproj|solutionrelative:views\\shared\\_productlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84C517A6-DEEF-89D1-F783-D8FD841E2565}|StudentManagement.csproj|c:\\users\\tuan tu\\code\\webapi\\code_web_asp.net-core-razor-pages\\code_chung_bai2-6\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{84C517A6-DEEF-89D1-F783-D8FD841E2565}|StudentManagement.csproj|d:\\code\\code\\webapi\\code_web_asp.net-core-razor-pages\\code_chung_bai2-6\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{84C517A6-DEEF-89D1-F783-D8FD841E2565}|StudentManagement.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
@@ -22,15 +29,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Tuan Tu\\Code\\WebAPI\\Code_Web_ASP.NET-Core-Razor-Pages\\Code_chung_bai2-6\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "D:\\Code\\Code\\WebAPI\\Code_Web_ASP.NET-Core-Razor-Pages\\Code_chung_bai2-6\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Tuan Tu\\Code\\WebAPI\\Code_Web_ASP.NET-Core-Razor-Pages\\Code_chung_bai2-6\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Code\\Code\\WebAPI\\Code_Web_ASP.NET-Core-Razor-Pages\\Code_chung_bai2-6\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAEYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -39,11 +46,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "_ProductLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tuan Tu\\Code\\WebAPI\\Code_Web_ASP.NET-Core-Razor-Pages\\Code_chung_bai2-6\\Views\\Shared\\_ProductLayout.cshtml",
+              "DocumentMoniker": "D:\\Code\\Code\\WebAPI\\Code_Web_ASP.NET-Core-Razor-Pages\\Code_chung_bai2-6\\Views\\Shared\\_ProductLayout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ProductLayout.cshtml",
-              "ToolTip": "C:\\Users\\Tuan Tu\\Code\\WebAPI\\Code_Web_ASP.NET-Core-Razor-Pages\\Code_chung_bai2-6\\Views\\Shared\\_ProductLayout.cshtml",
+              "ToolTip": "D:\\Code\\Code\\WebAPI\\Code_Web_ASP.NET-Core-Razor-Pages\\Code_chung_bai2-6\\Views\\Shared\\_ProductLayout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_ProductLayout.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAC8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -52,21 +59,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Tuan Tu\\Code\\WebAPI\\Code_Web_ASP.NET-Core-Razor-Pages\\Code_chung_bai2-6\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\Code\\Code\\WebAPI\\Code_Web_ASP.NET-Core-Razor-Pages\\Code_chung_bai2-6\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Tuan Tu\\Code\\WebAPI\\Code_Web_ASP.NET-Core-Razor-Pages\\Code_chung_bai2-6\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Code\\Code\\WebAPI\\Code_Web_ASP.NET-Core-Razor-Pages\\Code_chung_bai2-6\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAC4AAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAC4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-22T04:50:57.9Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Code\\Code\\WebAPI\\Code_Web_ASP.NET-Core-Razor-Pages\\Code_chung_bai2-6\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Code\\Code\\WebAPI\\Code_Web_ASP.NET-Core-Razor-Pages\\Code_chung_bai2-6\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAIwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T03:24:23.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Log.json",
+              "DocumentMoniker": "C:\\Users\\Tuan Tu\\Downloads\\com.garena.game.kgvn_1\\files\\SGameLog\\Log.json",
+              "ToolTip": "C:\\Users\\Tuan Tu\\Downloads\\com.garena.game.kgvn_1\\files\\SGameLog\\Log.json",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-15T04:40:56.37Z"
             }
           ]
         }
