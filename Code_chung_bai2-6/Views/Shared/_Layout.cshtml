@@ -12,7 +12,7 @@
 <body class="d-flex flex-column">
     <header class="app-header">
         <nav class="navbar navbar-expand-sm container">
-            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Bài 1: Hiển thị thông tin đơn giản</a>
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">StudentManagement</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#appNavbar"
                     aria-controls="appNavbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -21,16 +21,25 @@
                 <strong>
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">Trang chủ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="About">About</a>
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">Bài 1</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+                            <a class="nav-link" asp-controller="Product" asp-action="Detail">Bài 2</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="New">New</a>
+                            <a class="nav-link" asp-controller="Student" asp-action="Info">Bài 3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Account" asp-action="Login">Bài 4</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Book" asp-action="Index">Bài 5</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Employee" asp-action="Index">Bài 6</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="Book" asp-action="Index">Bài tập ORM</a>
@@ -47,13 +56,13 @@
         </div>
     </main>
 
-     <a asp-controller="Product" asp-action="Detail"
+    <a asp-controller="Product" asp-action="Detail"
        class="lesson-switch lesson-switch--right"
        title="Chuyển sang Bài 2"
        aria-label="Chuyển sang Bài 2">→</a>
 
     <footer class="app-footer text-center">
-        <div class="container">&copy; 2026 - Bài 1: StudentManagement</div>
+        <div class="container">&copy; 2026 - StudentManagement</div>
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

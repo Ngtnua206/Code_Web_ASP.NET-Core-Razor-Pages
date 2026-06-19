@@ -1,5 +1,41 @@
 ﻿@{
-    ViewData["Title"] = "Home";
+    ViewData["Title"] = "Trang chủ";
 }
 
-<h1>Welcome to ASP.NET MVC</h1>
+<div class="text-center py-5">
+    <h1 class="display-4 fw-bold" style="color: #e94560;">Chào mừng đến với ASP.NET MVC</h1>
+    <p class="lead mt-4" style="color: #a8dadc;">
+        Học viên: <strong>Tuấn Tú</strong>
+    </p>
+    <p style="color: #a8dadc;">
+        Dự án tổng hợp các bài thực hành ASP.NET Core MVC từ Bài 1 đến Bài 6 và Bài tập ORM.
+    </p>
+    <hr class="my-4" style="border-color: rgba(233, 69, 96, 0.3);" />
+    <div class="row mt-4 g-3 justify-content-center">
+        <div class="col-md-3">
+            <a asp-controller="Product" asp-action="Detail" class="btn btn-outline-light w-100 py-3">
+                <strong>Bài 2</strong><br /><small>Truyền tham số</small>
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a asp-controller="Student" asp-action="Info" class="btn btn-outline-light w-100 py-3">
+                <strong>Bài 3</strong><br /><small>ViewBag, ViewData, Model</small>
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a asp-controller="Account" asp-action="Login" class="btn btn-outline-light w-100 py-3">
+                <strong>Bài 4</strong><br /><small>Form Submit</small>
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a asp-controller="Book" asp-action="Index" class="btn btn-outline-light w-100 py-3">
+                <strong>Bài 5 / ORM</strong><br /><small>CRUD với EF Core</small>
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a asp-controller="Employee" asp-action="Index" class="btn btn-outline-light w-100 py-3">
+                <strong>Bài 6</strong><br /><small>Quản lý nhân viên</small>
+            </a>
+        </div>
+    </div>
+</div>
